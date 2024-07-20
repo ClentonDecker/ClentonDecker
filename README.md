@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @ClentonDecker
+- 👀 I’m interested in IT, Cybersecurity and just starting to gain interest in coding.
+- 🌱 I’m currently learning Front End Web development on Google Coursera
+- 💞️ I’m looking to collaborate on anything that will help me gain relevant knowledge. Afterall learning is alot more fun and can feel more productive with partners
+- 📫 How to reach me Instagram: mr_yeye97 Discord: my_yeye97. Yes i know theres a typo in my discord name lol.
