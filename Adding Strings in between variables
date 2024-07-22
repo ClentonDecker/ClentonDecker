@@ -1,0 +1,16 @@
+var petDog;
+var petDog = "Rex"
+var petCat;
+var petCat = "Pepper"
+console.log(petDog)
+console.log(petCat)
+console.log("My pet dogs name is", petDog)
+console.log("My pet cats name is", petCat)
+var catSound;
+var catSound = "meow"
+var dogSound
+var dogSound = "woof"
+console.log(petDog + "says" + dogSound)
+console.log(petCat + "says" + catSound)
+console.log(petCat + "now says" + catSound)
+// When adding a "string" in between variables use the "+" symbol. Use lines 13-15 as an example.
