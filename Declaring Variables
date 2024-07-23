@@ -1,0 +1,17 @@
+// here we are naming a variable then giving it a value.
+var petDog
+var petDog = "Rex"
+var petCat
+var petCat = "pepper"
+// here we are stating what the name is of the givin value.
+console.log("My pet dogs name is", petDog)
+console.log("My pet cats name is", petCat)
+var catSound
+var catSound = "meow"
+var dogSound
+var dogSound = "woof"
+// here we are showing an example of concatinating by using the '+' symbol
+console.log(petCat + "says" + catSound)
+console.log(petDog + "says" + dogSound)
+// the quickest way to change the name or sound of a given pet just change an existing value
+console.log(petCat + "now says" + catSound)
