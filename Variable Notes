@@ -1,0 +1,35 @@
+var score;
+var score = "8"
+console.log("Mid-level skills: " + (score > 0 && score < 10));
+// when comparing variable values make sure to put ALL related data within the '()' field.
+
+// The == operator in JavaScript is used to compare two values to see if they are equal.
+let timeRemaining = 0
+let energy = 10
+console.log("Game over: " + (timeRemaining == 0 || energy == 0))
+// In this case the value for "time remaining" =0 so therefore the "game over" would be true.
+
+// use the modulus operator "%" to test if a given number is odd
+let num1 = 2
+let num2 = 5
+
+let test1 = num1 % 2
+let test2 = num2 % 2
+
+let result1 = test1 == 0
+let result2 = test2 == 0
+
+// make sure you are inputing the correct data you are trying to test if you get an unexpected result. 
+console.log("is", num1, "an even number?", result1)
+console.log("is", num2, "an even number?", result2)
+
+// Add numbers using the '+' operator
+console.log(5+10)
+//make sure to NOT put the equation into a "string" Use example above
+
+// Concatenate numbers and strings using the '+' operator. Basically adding values togheter to make a single sentence.
+let now = "Now in"
+let three = 3
+let d = "D!"
+// now console.log the code above like so.
+console.log(now + three + d)
