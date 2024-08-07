@@ -1,0 +1,46 @@
+    console.log(c);
+}
+
+addTwoNums(2, 2);
+addTwoNums(4,4);
+
+// arrays
+
+var carriage0 = "wheat";
+var carriage1 = "barley";
+var carriage2 = "salt";
+var carriage3 = "potato";
+var carriage4 = "rocks";
+console.log (carriage0);
+
+var train1 = ["wheat", "barley", "potato", "salt", "rocks"];
+
+
+console.log(train1 [0]);
+
+// coding a game "cookie selling business"
+//game is turn based and uses tiles for characters
+
+// store manager character
+var storeManagerMovement = 4;
+var storeManagerSocialSkills = 50;
+var storeManagerStreetSmarts = 50;
+var storeManagerHealth = 30;
+
+var storeManager = {}
+storeManager.rangeTilesPerTurn = 4;
+storeManager.socialSkills = 50;
+storeManager.streetSmarts = 50;
+storeManager.health = 30;
+storeManager.specialability = "finding business opportunities";
+storeManager.greeting = "Let's make some money";
+storeManager.nextAchievement = "open a new store";
+assistantManager.nextAchievement = "get promoted"
+
+//assistant manager character
+var assistantManager = {
+movement: 3,
+socialSkills: 30,
+streetSmarts: 30,
+health: 40,
+}
