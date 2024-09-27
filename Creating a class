@@ -1,0 +1,63 @@
+// Creating a Class
+class Train {
+    constructor(color, lightsOn) { // "Constructor" A specail function that creates and initializes an object instance of a class
+        this.color = color; // "This" refers to an object that is executing the correct piece of code.
+        this.lightsOn = lightsOn;
+    }
+    toggleLights() {
+        this.lightsOn = !this.lightsOn;
+    }
+    lightsStatus() {
+        console.log('Lights on?', this.lightsOn);
+    }
+    getSelf() {
+        console.log(this);
+    }
+    getPrototype() {
+        var proto = Object.getPrototypeOf(this);
+        console.log(proto);
+    } // toggleLights, lightsStatus, GetSelf, GetProtype = Methods...// a method is a procedure that is defined as part of a class and is associated with an object.
+} // So we are defining a train as the class and we use "Constructor" to create the object and inside the {} we define the objects instance of the givin class.
+
+class HighSpeedTrain extends Train {
+    constructor(passengers, highSpeedOn, color, lightsOn) {
+        super(color, lightsOn);
+        this.passengers = passengers;
+        this.highSpeedOn = highSpeedOn;
+    }
+    toggleHighSpeed() {
+        this.highSpeedOn = !this.highSpeedOn;
+        console.log('High speed status:', this.highSpeedOn);
+    }
+    toggleLights() {
+        super.toggleLights();
+        super.lightsStatus();
+        console.log('Lights are 100% operational.');
+    }
+}
+
+var myFirstTrain = new Train('red', false);
+console.log(myFirstTrain); 
+var mySecondTrain = new Train('blue', false);
+var myThirdTrain = new Train('blue', false);
+
+var train4 = new Train('red', false); // The "new" operator creates a new instance of a type. So for example to create a 6th train you would type "var train6 = new"
+// Below on lines 46-49 you are performing actions for train 4. It peforms the oppisite of whatever the current action is so for example If the lights were off, it turns them on, and if they were on, it turns them off.
+train4.toggleLights(); 
+train4.lightsStatus(); 
+train4.getSelf(); 
+train4.getPrototype(); 
+
+var train5 = new Train('blue', false);
+var highSpeed1 = new HighSpeedTrain(200, false, 'green', false);
+
+train5.toggleLights(); 
+train5.lightsStatus(); 
+highSpeed1.toggleLights(); 
+
+// Adding a new train with methods.
+var train6 = new Train('Purple', false);
+train6.toggleLights(); 
+train6.lightsStatus(); 
+train6.getSelf(); 
+train6.getPrototype();
